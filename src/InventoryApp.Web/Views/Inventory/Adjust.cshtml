@@ -1,0 +1,37 @@
+@model InventoryApp.Web.ViewModels.InventoryAdjustVm
+@{
+    ViewData["Title"] = "Adjust Inventory";
+}
+<h1>Adjust Inventory</h1>
+<form id="adjustForm">
+    <div>
+        <label asp-for="ProductId"></label>
+        <input asp-for="ProductId" />
+    </div>
+    <div>
+        <label asp-for="Delta"></label>
+        <input asp-for="Delta" />
+    </div>
+    <div>
+        <label asp-for="Location"></label>
+        <input asp-for="Location" />
+    </div>
+    <button type="button" onclick="submitAdjust()">Submit</button>
+</form>
+<script>
+function submitAdjust() {
+    const data = {
+        productId: document.getElementById('ProductId').value,
+        delta: parseInt(document.getElementById('Delta').value),
+        location: document.getElementById('Location').value
+    };
+    fetch('/api/inventory/adjust', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(data)
+    }).then(r => {
+        if (r.ok) alert('Success');
+        else alert('Error');
+    });
+}
+</script>

@@ -1,0 +1,17 @@
+@model InventoryApp.Web.ViewModels.SupplierEditVm
+@{
+    ViewData["Title"] = Model.Id == Guid.Empty ? "Create Supplier" : "Edit Supplier";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="EditSupplier" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Suppliers" class="btn btn-secondary">Back to List</a>
+</form>

@@ -1,0 +1,11 @@
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.deps.json
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.dll
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfoInputs.cache
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfo.cs
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.csproj.CoreCompileInputs.cache
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.dll
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\refint\InventoryApp.Domain.dll
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\ref\InventoryApp.Domain.dll
