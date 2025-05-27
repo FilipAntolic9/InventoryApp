@@ -8,7 +8,7 @@ namespace InventoryApp.Application.DTOs
     /// 
     public class InventoryAdjustDto
     {
-        public Guid ProductId { get; set; }
+        public int ProductId { get; set; }
         public int Delta { get; set; } // +/-
         public string Location { get; set; }
     }

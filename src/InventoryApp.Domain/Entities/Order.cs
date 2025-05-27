@@ -13,30 +13,30 @@ namespace InventoryApp.Domain.Entities
 
     public class Order
     {
-        public Guid Id { get; private set; }
-        public Guid UserId { get; private set; }
-        public DateTime OrderDate { get; private set; }
-        public OrderStatus Status { get; private set; }
+        public int Id { get; private set; }            
+        public int VoditeljId { get; private set; }         
+        public int DobavljacId { get; private set; }         
+        public DateTime Datum { get; private set; }          
+        public string Status { get; private set; }          
 
         private readonly List<OrderItem> _items = new();
-        public IReadOnlyCollection<OrderItem> Items
-            => _items.AsReadOnly();
+        public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
 
         private Order() { }
 
-        public Order(Guid id, Guid userId)
+        public Order(int voditeljId, int dobavljacId)
         {
-            Id        = id;
-            UserId    = userId;
-            OrderDate = DateTime.UtcNow;
-            Status    = OrderStatus.Pending;
+            VoditeljId = voditeljId;
+            DobavljacId = dobavljacId;
+            Datum = DateTime.UtcNow;
+            Status = OrderStatus.Pending.ToString();
         }
 
         public void AddItem(Product product, int quantity, decimal unitPrice)
         {
             if (product == null) throw new ArgumentNullException(nameof(product));
-            if (quantity <= 0)   throw new ArgumentOutOfRangeException(nameof(quantity));
-            if (unitPrice < 0)   throw new ArgumentOutOfRangeException(nameof(unitPrice));
+            if (quantity <= 0) throw new ArgumentOutOfRangeException(nameof(quantity));
+            if (unitPrice < 0) throw new ArgumentOutOfRangeException(nameof(unitPrice));
 
             var existing = _items.FirstOrDefault(i => i.ProductId == product.Id);
             if (existing != null)
@@ -49,7 +49,7 @@ namespace InventoryApp.Domain.Entities
             }
         }
 
-        public void RemoveItem(Guid productId)
+        public void RemoveItem(int productId)
         {
             var item = _items.FirstOrDefault(i => i.ProductId == productId);
             if (item == null) throw new InvalidOperationException("ERROR: No item to remove.");
@@ -58,7 +58,7 @@ namespace InventoryApp.Domain.Entities
 
         public void ChangeStatus(OrderStatus newStatus)
         {
-            Status = newStatus;
+            Status = newStatus.ToString();
         }
     }
 }

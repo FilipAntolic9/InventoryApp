@@ -1,6 +1,6 @@
 @model InventoryApp.Web.ViewModels.SupplierEditVm
 @{
-    ViewData["Title"] = Model.Id == Guid.Empty ? "Create Supplier" : "Edit Supplier";
+    ViewData["Title"] = Model.Id == 0 ? "Create Supplier" : "Edit Supplier";
 }
 
 <h1>@ViewData["Title"]</h1>

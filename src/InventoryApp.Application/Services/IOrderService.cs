@@ -8,8 +8,8 @@ namespace InventoryApp.Application.Services
     public interface IOrderService
     {
         Task<List<OrderDto>> GetAllAsync();
-        Task<OrderDto> GetByIdAsync(Guid id);
+        Task<OrderDto> GetByIdAsync(int id);
         Task<OrderDto> CreateAsync(OrderDto dto);
-        Task ChangeStatusAsync(Guid orderId, string newStatus);
+        Task ChangeStatusAsync(int orderId, string newStatus);
     }
 }

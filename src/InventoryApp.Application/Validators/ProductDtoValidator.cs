@@ -7,9 +7,6 @@ namespace InventoryApp.Application.Validators
     {
         public ProductDtoValidator()
         {
-            RuleFor(x => x.Code)
-                .NotEmpty()
-                .MaximumLength(20);
 
             RuleFor(x => x.Name)
                 .NotEmpty()

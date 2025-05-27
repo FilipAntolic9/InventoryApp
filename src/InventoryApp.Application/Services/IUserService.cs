@@ -8,9 +8,9 @@ namespace InventoryApp.Application.Services
     public interface IUserService
     {
         Task<List<UserDto>> GetAllAsync();
-        Task<UserDto> GetByIdAsync(Guid id);
+        Task<UserDto> GetByIdAsync(int id);
         Task<UserDto> CreateAsync(UserDto dto, string password);
         Task UpdateAsync(UserDto dto);
-        Task DeleteAsync(Guid id);
+        Task DeleteAsync(int id);
     }
 }

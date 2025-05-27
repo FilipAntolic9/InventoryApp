@@ -27,7 +27,7 @@ namespace InventoryApp.Application.Services
             return _mapper.Map<List<UserDto>>(users);
         }
 
-        public async Task<UserDto> GetByIdAsync(Guid id)
+        public async Task<UserDto> GetByIdAsync(int id)
         {
             var u = await _uow.Repository<User>().GetByIdAsync(id);
             return _mapper.Map<UserDto>(u);
@@ -39,7 +39,7 @@ namespace InventoryApp.Application.Services
             var hash = BCrypt.Net.BCrypt.HashPassword(password);
 
             var user = new User(
-                Guid.NewGuid(),
+                0,
                 dto.FirstName,
                 dto.LastName,
                 email,
@@ -58,7 +58,7 @@ namespace InventoryApp.Application.Services
             await _uow.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var u = await _uow.Repository<User>().GetByIdAsync(id);
             _uow.Repository<User>().Remove(u);

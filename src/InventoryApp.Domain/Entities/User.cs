@@ -5,7 +5,7 @@ namespace InventoryApp.Domain.Entities
 {
     public class User
     {
-        public Guid Id { get; private set; }
+        public int Id { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
         public EmailAddress Email { get; private set; }
@@ -13,7 +13,7 @@ namespace InventoryApp.Domain.Entities
 
         private User() { }
 
-        public User(Guid id, string firstName, string lastName, EmailAddress email, string passwordHash)
+        public User(int id, string firstName, string lastName, EmailAddress email, string passwordHash)
         {
             Id           = id;
             FirstName    = firstName    ?? throw new ArgumentNullException(nameof(firstName));

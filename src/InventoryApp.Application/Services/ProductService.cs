@@ -25,7 +25,7 @@ namespace InventoryApp.Application.Services
             return _mapper.Map<List<ProductDto>>(products);
         }
 
-        public async Task<ProductDto> GetByIdAsync(Guid id)
+        public async Task<ProductDto> GetByIdAsync(int id)
         {
             var prod = await _uow.Repository<Product>().GetByIdAsync(id);
             return _mapper.Map<ProductDto>(prod);
@@ -42,14 +42,18 @@ namespace InventoryApp.Application.Services
         public async Task UpdateAsync(ProductDto dto)
         {
             var existing = await _uow.Repository<Product>().GetByIdAsync(dto.Id);
+            if (existing == null) throw new Exception("Product not found");
+
             _mapper.Map(dto, existing);
-            _uow.Repository<Product>().Update(existing);
+            Console.WriteLine($"Updating product {dto.Id} with name {dto.Name}");
             await _uow.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var existing = await _uow.Repository<Product>().GetByIdAsync(id);
+            if (existing == null) throw new Exception("Product not found");
+
             _uow.Repository<Product>().Remove(existing);
             await _uow.SaveChangesAsync();
         }

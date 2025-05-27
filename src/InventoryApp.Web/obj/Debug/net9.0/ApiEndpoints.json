@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "InventoryApp.Web.Controllers.InventoryController",
+    "Method": "Adjust",
+    "RelativePath": "api/Inventory/adjust",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vm",
+        "Type": "InventoryApp.Web.ViewModels.InventoryAdjustVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

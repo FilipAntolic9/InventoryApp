@@ -26,7 +26,7 @@ namespace InventoryApp.Application.Services
             return _mapper.Map<List<OrderDto>>(orders);
         }
 
-        public async Task<OrderDto> GetByIdAsync(Guid id)
+        public async Task<OrderDto> GetByIdAsync(int id)
         {
             var o = await _uow.Repository<Order>().GetByIdAsync(id);
             return _mapper.Map<OrderDto>(o);
@@ -34,7 +34,7 @@ namespace InventoryApp.Application.Services
 
         public async Task<OrderDto> CreateAsync(OrderDto dto)
         {
-            var order = new Order(Guid.NewGuid(), dto.UserId);
+            var order = new Order(0, dto.UserId);
 
             foreach(var item in dto.Items)
                 order.AddItem(
@@ -47,7 +47,7 @@ namespace InventoryApp.Application.Services
             return _mapper.Map<OrderDto>(order);
         }
 
-        public async Task ChangeStatusAsync(Guid orderId, string newStatus)
+        public async Task ChangeStatusAsync(int orderId, string newStatus)
         {
             var o = await _uow.Repository<Order>().GetByIdAsync(orderId);
             if (Enum.TryParse<OrderStatus>(newStatus, true, out var st))
