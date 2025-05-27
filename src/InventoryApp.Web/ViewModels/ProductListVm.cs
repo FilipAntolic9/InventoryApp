@@ -18,8 +18,7 @@ namespace InventoryApp.Web.ViewModels
             Search = search;
             var filtered = string.IsNullOrWhiteSpace(search)
                 ? all
-                : all.Where(p => p.Name.Contains(search, StringComparison.OrdinalIgnoreCase)
-                              || p.Code.Contains(search, StringComparison.OrdinalIgnoreCase));
+                : all.Where(p => p.Name.Contains(search, StringComparison.OrdinalIgnoreCase));
             Page = page;
             TotalPages = (int)Math.Ceiling(filtered.Count() / (double)PageSize);
             Products = filtered

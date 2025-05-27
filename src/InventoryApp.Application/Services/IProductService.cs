@@ -8,9 +8,9 @@ namespace InventoryApp.Application.Services
     public interface IProductService
     {
         Task<List<ProductDto>> GetAllAsync();
-        Task<ProductDto> GetByIdAsync(Guid id);
+        Task<ProductDto> GetByIdAsync(int id);
         Task<ProductDto> CreateAsync(ProductDto dto);
         Task UpdateAsync(ProductDto dto);
-        Task DeleteAsync(Guid id);
+        Task DeleteAsync(int id);
     }
 }

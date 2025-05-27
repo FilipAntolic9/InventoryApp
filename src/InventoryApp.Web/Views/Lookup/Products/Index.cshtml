@@ -1,0 +1,39 @@
+@model InventoryApp.Web.ViewModels.ProductListVm
+@{
+    ViewData["Title"] = "/Products";
+}
+
+<h1>Products</h1>
+
+<form method="get" asp-action="Products" asp-controller="Lookup">
+    <input type="text" name="search" value="@Model.Search" placeholder="Search..." />
+    <button type="submit">Search</button>
+</form>
+
+<table>
+    <thead><tr><th>Name</th><th>Price</th><th></th></tr></thead>
+    <tbody>
+        @foreach (var p in Model.Products)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Price</td>
+                <td>
+                    <a asp-action="EditProduct" asp-controller="Lookup" asp-route-id="@p.Id">Edit</a>
+                    <form asp-action="DeleteProduct" asp-controller="Lookup" asp-route-id="@p.Id" method="post" style="display:inline">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        <a asp-action="Products" asp-controller="Lookup" asp-route-page="@i" asp-route-search="@Model.Search">@i</a>
+    }
+</div>
+
+<a asp-action="EditProduct" asp-controller="Lookup">Create New</a>

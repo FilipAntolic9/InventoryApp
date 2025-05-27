@@ -17,3 +17,43 @@ C:\Dummy\3\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\refint\
 C:\Dummy\3\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.pdb
 C:\Dummy\3\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.genruntimeconfig.cache
 C:\Dummy\3\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\ref\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.deps.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.runtimeconfig.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Application.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Application.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.AssemblyInfo.cs
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\Inventor.626C0326.Up2Date
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\refint\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.genruntimeconfig.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\ref\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.sourcelink.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.deps.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.runtimeconfig.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Infrastructure.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Application.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Application.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\bin\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.AssemblyInfo.cs
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.sourcelink.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\Inventor.626C0326.Up2Date
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\refint\InventoryApp.Infrastructure.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\InventoryApp.Infrastructure.genruntimeconfig.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Infrastructure\obj\Debug\net9.0\ref\InventoryApp.Infrastructure.dll

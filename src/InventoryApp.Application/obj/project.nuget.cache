@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "OsCW4rJcEXU=",
+  "dgSpecHash": "FXN+ZGybQVo=",
   "success": true,
-  "projectFilePath": "C:\\Dummy\\3\\InventoryApp\\src\\InventoryApp.Application\\InventoryApp.Application.csproj",
+  "projectFilePath": "C:\\Users\\karlo\\OneDrive - fer.hr\\Desktop\\InventoryApp\\src\\InventoryApp.Application\\InventoryApp.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Filip\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\karlo\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.300\\microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
   ],
   "logs": []
 }

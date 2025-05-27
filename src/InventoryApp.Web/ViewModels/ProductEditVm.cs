@@ -7,10 +7,7 @@ namespace InventoryApp.Web.ViewModels
 {
     public class ProductEditVm
     {
-        public Guid Id { get; set; }
-
-        [Required, MaxLength(20)]
-        public string Code { get; set; }
+        public int Id { get; set; }
 
         [Required, MaxLength(100)]
         public string Name { get; set; }
@@ -24,13 +21,12 @@ namespace InventoryApp.Web.ViewModels
         public ProductEditVm(ProductDto dto)
         {
             Id          = dto.Id;
-            Code        = dto.Code;
             Name        = dto.Name;
             Description = dto.Description;
             Price       = dto.Price;
         }
 
         public ProductDto ToDto()
-            => new() { Id = Id, Code = Code, Name = Name, Description = Description, Price = Price };
+            => new() { Id = Id, Name = Name, Description = Description, Price = Price };
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YvnHKLuS2o0=",
+  "dgSpecHash": "aBA80ZAQQ60=",
   "success": true,
-  "projectFilePath": "C:\\Dummy\\3\\InventoryApp\\src\\InventoryApp.Domain\\InventoryApp.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\karlo\\OneDrive - fer.hr\\Desktop\\InventoryApp\\src\\InventoryApp.Domain\\InventoryApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.300\\microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
+  ],
   "logs": []
 }

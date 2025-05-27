@@ -9,3 +9,26 @@ C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Do
 C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\refint\InventoryApp.Domain.dll
 C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.pdb
 C:\Dummy\3\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\ref\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.deps.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfoInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfo.cs
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\refint\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\InventoryApp-main\src\InventoryApp.Domain\obj\Debug\net9.0\ref\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.deps.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfoInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfo.cs
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.sourcelink.json
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\refint\InventoryApp.Domain.dll
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.pdb
+C:\Users\karlo\OneDrive - fer.hr\Desktop\InventoryApp\src\InventoryApp.Domain\obj\Debug\net9.0\ref\InventoryApp.Domain.dll

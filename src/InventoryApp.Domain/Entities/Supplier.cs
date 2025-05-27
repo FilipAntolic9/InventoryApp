@@ -1,15 +1,13 @@
-using System;
-
 namespace InventoryApp.Domain.Entities
 {
     public class Supplier
     {
-        public Guid Id { get; private set; }
+        public int Id { get; private set; }
         public string Name { get; private set; }
 
         private Supplier() { }
 
-        public Supplier(Guid id, string name)
+        public Supplier(int id, string name)
         {
             Id = id;
             Name = !string.IsNullOrWhiteSpace(name)

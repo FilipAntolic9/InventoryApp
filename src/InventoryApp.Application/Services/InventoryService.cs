@@ -27,7 +27,7 @@ namespace InventoryApp.Application.Services
             if (existing == null)
             {
                 existing = new InventoryLocation(
-                    Guid.NewGuid(),
+                    0,
                     dto.ProductId,
                     0,
                     dto.Location);

@@ -25,7 +25,7 @@ namespace InventoryApp.Application.Services
             return _mapper.Map<List<SupplierDto>>(list);
         }
 
-        public async Task<SupplierDto> GetByIdAsync(Guid id)
+        public async Task<SupplierDto> GetByIdAsync(int id)
         {
             var ent = await _uow.Repository<Supplier>().GetByIdAsync(id);
             return _mapper.Map<SupplierDto>(ent);
@@ -33,7 +33,7 @@ namespace InventoryApp.Application.Services
 
         public async Task<SupplierDto> CreateAsync(SupplierDto dto)
         {
-            var ent = new Supplier(Guid.NewGuid(), dto.Name);
+            var ent = new Supplier(0, dto.Name);
             await _uow.Repository<Supplier>().AddAsync(ent);
             await _uow.SaveChangesAsync();
             return _mapper.Map<SupplierDto>(ent);
@@ -48,7 +48,7 @@ namespace InventoryApp.Application.Services
             await _uow.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var repo = _uow.Repository<Supplier>();
             var ent  = await repo.GetByIdAsync(id);

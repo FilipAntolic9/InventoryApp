@@ -8,9 +8,9 @@ namespace InventoryApp.Application.Services
     public interface ISupplierService
     {
         Task<List<SupplierDto>> GetAllAsync();
-        Task<SupplierDto> GetByIdAsync(Guid id);
+        Task<SupplierDto> GetByIdAsync(int id);
         Task<SupplierDto> CreateAsync(SupplierDto dto);
         Task UpdateAsync(SupplierDto dto);
-        Task DeleteAsync(Guid id);
+        Task DeleteAsync(int id);
     }
 }
